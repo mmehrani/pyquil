@@ -282,7 +282,7 @@ allows us to declare classical memory regions so that we can receive data from t
     .. code:: python
 
         from pyquil import get_qc, Program
-        from pyquil.gates import CNOT, Z, MEASURE
+        from pyquil.gates import CNOT, Z, H, MEASURE
         from pyquil.api import local_forest_runtime
         from pyquil.quilbase import Declare
 
